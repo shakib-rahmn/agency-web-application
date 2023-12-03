@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #fff;
+  font: 400 16px var(--font-poppins), sans-serif;
+}
+
+p {
+  @apply font-avenir
+}
+
+p.medium {
+  @apply font-medium
+}
+
+.container {
+  @apply mx-auto px-5
+}
+
+.title-sm {
+  @apply text-xl text-[#20B15A] mb-5 font-medium uppercase
+}
+
+.section-title {
+  @apply text-[calc(24px+0.8vw)] font-bold leading-normal
+}
