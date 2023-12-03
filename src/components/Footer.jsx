@@ -41,10 +41,10 @@ const Footer = () => {
 
           <div>
             <h2 className="text-white mb-4 font-medium">Quick Links</h2>
-            <Link href="" className="flex mb-4 text-slate-100">Services</Link>
-            <Link href="" className="flex mb-4 text-slate-100">Portfolio</Link>
-            <Link href="" className="flex mb-4 text-slate-100">About Us</Link>
-            <Link href="" className="flex text-slate-100">Contact Us</Link>
+            <Link href="" className="flex w-max mb-4 text-slate-100">Services</Link>
+            <Link href="" className="flex w-max mb-4 text-slate-100">Portfolio</Link>
+            <Link href="" className="flex w-max mb-4 text-slate-100">About Us</Link>
+            <Link href="" className="flex w-max text-slate-100">Contact Us</Link>
           </div>
 
           <div className="text-white">
